@@ -1,0 +1,11 @@
+#!/bin/bash
+
+SOURCE=/home/mushroom/android/
+REPOSITORY=ubuntu/android
+CONTAINER_HOME=/home/build
+TAG=16.04
+#PRIVILEGED="--privileged -v /dev/bus/usb:/dev/bus/usb"
+
+docker run $PRIVILEGED \
+	-v $SOURCE:$CONTAINER_HOME \
+	-i -t $REPOSITORY:$TAG
