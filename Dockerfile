@@ -1,4 +1,4 @@
-# Build environment for CyanogenMod
+# Build environment for Android Source
 
 FROM ubuntu:16.04
 MAINTAINER Mushroom <forever670@gmail.com>
